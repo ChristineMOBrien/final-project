@@ -3,12 +3,90 @@
 <head>
 <meta charset="UTF-8">
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>Untitled Document</title>
+<title>International Beard and Moustache Competition</title>
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
+<link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="Homepage Banner" type="boolean" value="false" -->
+<!-- TemplateParam name="Sponsors Banner" type="boolean" value="false" -->
+<!-- TemplateParam name="History Banner" type="boolean" value="false" -->
+<!-- TemplateParam name="Moustache Category Banner" type="boolean" value="false" -->
+<!-- TemplateParam name="Partial Beard Category Banner" type="boolean" value="false" -->
+<!-- TemplateParam name="Full Beard Category Banner" type="boolean" value="false" -->
+<!-- TemplateParam name="Rules Banner" type="boolean" value="false" -->
 </head>
 
 <body>
+
+
+<!-- TemplateBeginEditable name="Banners" -->
+
+<!-- TemplateBeginIf cond="_document['Homepage Banner']" -->Homepage Banner<!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="_document['History Banner']" -->History Banner<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Moustache Category Banner']" -->Moustache Category Banner<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Partial Beard Category Banner']" -->Partial Beard Category Banner<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Full Beard Category Banner']" -->Full Beard Category Banner<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Rules Banner']" -->Rules Banner<!-- TemplateEndIf -->
+
+<!-- TemplateBeginIf cond="_document['Sponsors Banner']" -->Sponsors Banner<!-- TemplateEndIf -->
+
+
+<!-- TemplateEndEditable -->
+
+
+<!-- TemplateBeginEditable name="Primary Navigation " -->
+<p><a href="../index.html">Home</a> <a href="../History/index.html">History</a> <a href="../Moustache Category/index.html">Moustache Category</a> <a href="../Partial Beard Category/index.html">Partial Beard Category</a> <a href="../Full Beard Category/index.html">Full Beard Category</a> <a href="../Rules/index.html">Rules</a> <a href="../Sponsors/index.html">Sponsors</a></p>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="Secondary Navigation" -->
+<p>[History] </p>
+<p>Debut </p>
+<p>Europeans on Top </p>
+<p>'MURICA!</p>
+<p>Dates and Places</p>
+<p>Past Winners</p>
+<p>&nbsp;</p>
+<p>[Moustache Category]</p>
+<p>Natural</p>
+<p>English</p>
+<p>Dali</p>
+<p>Imperial </p>
+<p>Hungarian</p>
+<p>Freestyle</p>
+<p>&nbsp;</p>
+<p>[Partial Beard Category]</p>
+<p>Natural</p>
+<p>Fu Manchu</p>
+<p>Imperial </p>
+<p>Musketeer</p>
+<p>Sideburns</p>
+<p>Amish Beard</p>
+<p>&nbsp;</p>
+<p>[Full Beard Category]</p>
+<p>Full Beard Natural</p>
+<p>Full Beard Styled Moustache</p>
+<p>Verdi</p>
+<p>Garibaldi</p>
+<p>Freestyle Full Beard</p>
+<p>&nbsp;</p>
+<p>[Rules]</p>
+<p>Rule 1</p>
+<p>Rule 2</p>
+<p>Rule 3</p>
+<p>Rule 4</p>
+<p>Rule 5</p>
+<p>Rule 6</p>
+<p>Rule 7</p>
+<p>Rule 8</p>
+<p>Rule 9</p>
+<p>Rule 10</p>
+<p>Rule 11</p>
+<p>Rule 12</p>
+<p>Rule 13</p>
+<p>&nbsp;</p>
+<p>[Sponsors]</p>
+<p>Just for Men</p>
+<p>Remington</p>
+<p>Deschutes Brewery</p>
+<p>Barenjager</p>
+<p>Gibs</p>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="Page Content" -->Page Content<!-- TemplateEndEditable -->
 </body>
 </html>
