@@ -1,2 +1,17 @@
-/* CSS Document */
-
+.primarynav {
+	background-color: #960;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 10px;
+	color: #FFC;
+}
+.secondarynav {
+}
+.secondarynav a {
+	color: #FFC;
+	background-color: #960;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 10px;
+	list-style-position: outside;
+}

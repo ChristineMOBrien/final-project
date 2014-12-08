@@ -15,78 +15,97 @@
 <!-- TemplateParam name="Partial Beard Category Banner" type="boolean" value="false" -->
 <!-- TemplateParam name="Full Beard Category Banner" type="boolean" value="false" -->
 <!-- TemplateParam name="Rules Banner" type="boolean" value="false" -->
+<!-- TemplateParam name="History Sec Nav" type="boolean" value="false" -->
+<!-- TemplateParam name="Moustache Cat Sec Nav" type="boolean" value="false" -->
+<!-- TemplateParam name="Partial Beard Cat Sec Nav" type="boolean" value="false" -->
+<!-- TemplateParam name="Full Beard Cat Sec Nav" type="boolean" value="false" -->
+<!-- TemplateParam name="Rules Sec Nav" type="boolean" value="false" -->
+<!-- TemplateParam name="Sponsors Sec Nav" type="boolean" value="false" -->
+<!-- TemplateParam name="homepagesideimage" type="boolean" value="false" -->
 </head>
 
 <body>
 
+<table width="950" border="0">
+  <tr>
+    <td><!-- TemplateBeginIf cond="_document['Homepage Banner']" --><img src="../Images/Banner Images/homepagebanner.jpg" width="1000" height="250"><!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="_document['History Banner']" --><img src="../Images/Banner Images/historybanner.jpg" width="1000" height="250"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Moustache Category Banner']" --><img src="../Images/Banner Images/moustachebanner.jpg" width="1000" height="250"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Partial Beard Category Banner']" --><img src="../Images/Banner Images/fullbeardbanner.jpg" width="1000" height="250"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Full Beard Category Banner']" --><img src="../Images/Banner Images/NEWNEWNEWBEARDBANNER.jpg" width="1000" height="250"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Rules Banner']" --><img src="../Images/Banner Images/rulesbanner.jpg" width="1000" height="250"><!-- TemplateEndIf -->
 
-<!-- TemplateBeginEditable name="Banners" -->
+<!-- TemplateBeginIf cond="_document['Sponsors Banner']" --><img src="../Images/Banner Images/sponsorsbanner.jpg" width="1000" height="250"><!-- TemplateEndIf -->
 
-<!-- TemplateBeginIf cond="_document['Homepage Banner']" -->Homepage Banner<!-- TemplateEndIf -->
-<!-- TemplateBeginIf cond="_document['History Banner']" -->History Banner<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Moustache Category Banner']" -->Moustache Category Banner<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Partial Beard Category Banner']" -->Partial Beard Category Banner<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Full Beard Category Banner']" -->Full Beard Category Banner<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Rules Banner']" -->Rules Banner<!-- TemplateEndIf -->
-
-<!-- TemplateBeginIf cond="_document['Sponsors Banner']" -->Sponsors Banner<!-- TemplateEndIf -->
-
-
-<!-- TemplateEndEditable -->
+</td>
+  </tr>
+</table>
 
 
-<!-- TemplateBeginEditable name="Primary Navigation " -->
-<p><a href="../index.html">Home</a> <a href="../History/index.html">History</a> <a href="../Moustache Category/index.html">Moustache Category</a> <a href="../Partial Beard Category/index.html">Partial Beard Category</a> <a href="../Full Beard Category/index.html">Full Beard Category</a> <a href="../Rules/index.html">Rules</a> <a href="../Sponsors/index.html">Sponsors</a></p>
-<!-- TemplateEndEditable -->
-<!-- TemplateBeginEditable name="Secondary Navigation" -->
-<p>[History] </p>
-<p>Debut </p>
-<p>Europeans on Top </p>
-<p>'MURICA!</p>
-<p>Dates and Places</p>
-<p>Past Winners</p>
-<p>&nbsp;</p>
-<p>[Moustache Category]</p>
-<p>Natural</p>
-<p>English</p>
-<p>Dali</p>
-<p>Imperial </p>
-<p>Hungarian</p>
-<p>Freestyle</p>
-<p>&nbsp;</p>
-<p>[Partial Beard Category]</p>
-<p>Natural</p>
-<p>Fu Manchu</p>
-<p>Imperial </p>
-<p>Musketeer</p>
-<p>Sideburns</p>
-<p>Amish Beard</p>
-<p>&nbsp;</p>
-<p>[Full Beard Category]</p>
-<p>Full Beard Natural</p>
-<p>Full Beard Styled Moustache</p>
-<p>Verdi</p>
-<p>Garibaldi</p>
-<p>Freestyle Full Beard</p>
-<p>&nbsp;</p>
-<p>[Rules]</p>
-<p>Rule 1</p>
-<p>Rule 2</p>
-<p>Rule 3</p>
-<p>Rule 4</p>
-<p>Rule 5</p>
-<p>Rule 6</p>
-<p>Rule 7</p>
-<p>Rule 8</p>
-<p>Rule 9</p>
-<p>Rule 10</p>
-<p>Rule 11</p>
-<p>Rule 12</p>
-<p>Rule 13</p>
-<p>&nbsp;</p>
-<p>[Sponsors]</p>
-<p>Just for Men</p>
-<p>Remington</p>
-<p>Deschutes Brewery</p>
-<p>Barenjager</p>
-<p>Gibs</p>
-<!-- TemplateEndEditable -->
-<!-- TemplateBeginEditable name="Page Content" -->Page Content<!-- TemplateEndEditable -->
+
+
+<table width="950" border="0">
+  <tr>
+    <td><a href="../index.html" class="primarynav">Home</a> <a href="../History/index.html" class="primarynav">History</a> <a href="../Moustache Category/index.html" class="primarynav">Moustache Category</a> <a href="../Partial Beard Category/index.html" class="primarynav">Partial Beard Category</a> <a href="../Full Beard Category/index.html" class="primarynav">Full Beard Category</a> <a href="../Rules/index.html" class="primarynav">Rules</a> <a href="../Sponsors/index.html" class="primarynav">Sponsors</a></p></td>
+  </tr>
+</table>
+<table width="950" border="0">
+  <tr>
+    <td width="331" class="secondarynav"><!-- TemplateBeginIf cond="homepagesideimage" --><img src="../Images/Banner Images/hirarchyofbeards.jpg" width="300" height="300"><!-- TemplateEndIf -->
+	
+	
+	<!-- TemplateBeginIf cond="_document['History Sec Nav']" -->
+	<p><a href="../History/Second Level Pages/1. Debut.html">Debut</a></p>
+	<p><a href="../History/Second Level Pages/2. European Influence.html">European Influence</a>	  </p>
+	<p><a href="../History/Second Level Pages/3. 'MURICA! .html">'MURICA!</a></p>
+	<p><a href="../History/Second Level Pages/4. Locations and Years.html">Locations and Years</a></p>
+	<p><a href="../History/Second Level Pages/5. Past Winners.html">Past Winners</a></p>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Moustache Cat Sec Nav']" -->
+<p><a href="../Moustache Category/Second Level Pages/1. Natural.html">Natural</a></p>
+<p><a href="../Moustache Category/Second Level Pages/2. English.html">English</a>  </p>
+<p><a href="../Moustache Category/Second Level Pages/3. Dali.html">Dali</a></p>
+<p><a href="../Moustache Category/Second Level Pages/4. Imperial.html">Imperial </a></p>
+<p><a href="../Moustache Category/Second Level Pages/5. Hungarian.html">Hungarian</a></p>
+<p><a href="../Moustache Category/Second Level Pages/6. Freestyle.html">Freestyle</a></p>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Partial Beard Cat Sec Nav']" -->
+    <p><a href="../Partial Beard Category/Second Level Pages/1. Natural.html">Natural</a></p>
+    <p><a href="../Partial Beard Category/Second Level Pages/2. Fu Manchu.html">Fu Manchu</a></p>
+    <p><a href="../Partial Beard Category/Second Level Pages/3. Imperial.html">Imperial </a></p>
+    <p><a href="../Partial Beard Category/Second Level Pages/4. Musketeer.html">Musketeer</a></p>
+    <p><a href="../Partial Beard Category/Second Level Pages/5. Sideburns.html">Sideburns</a></p>
+    <p><a href="../Partial Beard Category/Second Level Pages/6. Amish Beard.html">Amish Beard</a></p>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Full Beard Cat Sec Nav']" -->
+    <p><a href="../Full Beard Category/Second Level Pages/1. Full Beard Natural.html">Full Beard Natural</a></p>
+    <p><a href="../Full Beard Category/Second Level Pages/2. Full Beard Styled Moustache.html">Full Beard Styled Moustache</a></p>
+    <p><a href="../Full Beard Category/Second Level Pages/3. Verdi.html">Verdi</a></p>
+    <p><a href="../Full Beard Category/Second Level Pages/4. Garibaldi.html">Garibaldi</a></p>
+    <p><a href="../Full Beard Category/Second Level Pages/5. Freestyle Full Beard.html">Freestyle Full Beard</a></p>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Rules Sec Nav']" -->
+    <p><a href="../Rules/Second Level Pages/1. Rule 1.html">Rule 1</a> </p>
+    <p><a href="../Rules/Second Level Pages/2. Rule 2.html">Rule 2</a></p>
+    <p><a href="../Rules/Second Level Pages/3. Rule 3.html">Rule 3</a></p>
+    <p><a href="../Rules/Second Level Pages/4. Rule 4.html">Rule 4</a></p>
+    <p><a href="../Rules/Second Level Pages/5. Rule 5.html">Rule 5</a></p>
+    <p><a href="../Rules/Second Level Pages/6. Rule 6.html">Rule 6</a></p>
+    <p><a href="../Rules/Second Level Pages/7. Rule 7.html">Rule 7</a></p>
+    <p><a href="../Rules/Second Level Pages/8. Rule 8.html">Rule 8</a></p>
+    <p><a href="../Rules/Second Level Pages/9. Rule 9.html">Rule 9</a></p>
+    <p><a href="../Rules/Second Level Pages/10. Rule 10.html">Rule 10</a></p>
+    <p><a href="../Rules/Second Level Pages/11. Rule 11.html">Rule 11</a></p>
+    <p><a href="../Rules/Second Level Pages/12. Rule  12.html">Rule 12</a></p>
+    <p><a href="../Rules/Second Level Pages/13. Rule 13.html">Rule 13</a></p>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Sponsors Sec Nav']" -->
+    <p><a href="../Sponsors/Second Level Pages/1. Just for Men.html">Just for Men</a></p>
+    <p><a href="../Sponsors/Second Level Pages/2. Remington.html">Remington</a></p>
+    <p><a href="../Sponsors/Second Level Pages/3. Deschutes Brewery.html">Deschutes Brewery</a></p>
+    <p><a href="../Sponsors/Second Level Pages/4. Barenjager.html">Barenjager</a></p>
+    <p><a href="../Sponsors/Second Level Pages/5. Gibs.html">Gibs</a></p>   
+    <!-- TemplateEndIf -->
+ </td>
+    <td width="609">&nbsp;
+<!-- TemplateBeginEditable name="Page Content" -->Page Content<!-- TemplateEndEditable --></td>
+  </tr>
+</table>
+<table width="950" border="0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
 </body>
 </html>
