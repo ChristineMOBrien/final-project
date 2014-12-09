@@ -15,3 +15,18 @@
 	margin: 10px;
 	list-style-position: outside;
 }
+body {
+	background-color: #696;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	text-transform: none;
+}
+p {
+	color: #FFC;
+}
+h1 {
+	color: #FFC;
+}
+a {
+	color: #FC6;
+}
