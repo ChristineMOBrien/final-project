@@ -47,7 +47,10 @@
 </table>
 <table width="950" border="0">
   <tr>
-    <td width="331" class="secondarynav"><!-- TemplateBeginIf cond="homepagesideimage" --><img src="../Images/Banner Images/hirarchyofbeards.jpg" width="300" height="300"><!-- TemplateEndIf -->
+    <td width="331" class="secondarynav">
+	
+	
+	<!-- TemplateBeginIf cond="homepagesideimage" --><img src="../Images/Banner Images/REALsecnavbanner.jpg" width="300" height="300"><img src="../Images/Banner Images/hirarchyofbeards.jpg" width="300" height="300"><!-- TemplateEndIf -->
 	
 	
 	<!-- TemplateBeginIf cond="_document['History Sec Nav']" -->

@@ -6,6 +6,7 @@
 	color: #FFC;
 }
 .secondarynav {
+	float: left;
 }
 .secondarynav a {
 	color: #FFC;
@@ -20,13 +21,25 @@ body {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-weight: normal;
 	text-transform: none;
+	line-height: 30px;
+	float: left;
 }
 p {
 	color: #FFC;
+	float: left;
+	margin: 5px;
+	clear: left;
 }
 h1 {
 	color: #FFC;
 }
 a {
 	color: #FC6;
+}
+.imagewrap {
+	border: 30px double #CC9;
+	padding: 5px;
+	margin: 5px;
+	vertical-align: text-bottom;
+	text-align: justify;
 }
