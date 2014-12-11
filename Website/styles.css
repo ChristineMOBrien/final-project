@@ -8,6 +8,8 @@
 .secondarynav {
 	float: left;
 }
+img {
+}
 .secondarynav a {
 	color: #FFC;
 	background-color: #960;
@@ -32,6 +34,7 @@ p {
 }
 h1 {
 	color: #FFC;
+	text-align: center;
 }
 a {
 	color: #FC6;
