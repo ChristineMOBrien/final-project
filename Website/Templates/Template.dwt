@@ -22,6 +22,13 @@
 <!-- TemplateParam name="Rules Sec Nav" type="boolean" value="false" -->
 <!-- TemplateParam name="Sponsors Sec Nav" type="boolean" value="false" -->
 <!-- TemplateParam name="homepagesideimage" type="boolean" value="false" -->
+<style type="text/css">
+body,td,th {
+	color: #FFF;
+}
+</style>
+<!-- TemplateParam name="homepage footer" type="boolean" value="true" -->
+<!-- TemplateParam name="home footer" type="boolean" value="false" -->
 </head>
 
 <body>
@@ -108,8 +115,10 @@
 </table>
 <table width="950" border="0">
   <tr>
-    <td>&nbsp;</td>
-  </tr>
+    <td><p>Created By: Christine O'Brien &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+    <!-- TemplateBeginEditable name="Me" --><p><img src="../Images/1383973_10202312600639258_2078701081_n.jpg" width="300" height="300"></p><!-- TemplateEndEditable --><!-- TemplateBeginIf cond="_document['home footer']" -->
+    <img src="../Images/FINALenjoytheride.jpg" width="550" height="250" class="imagewrap">
+    <!-- TemplateEndIf --></tr>
 </table>
 </body>
 </html>
